@@ -21,9 +21,9 @@ public class EmployeeController {
         return svc.getAll(search, pageable);
     }
 
-    @PostMapping
-    public Employee create(@RequestBody Employee emp) { /* ... */ }
-    @PutMapping("/{id}") public Employee update(@PathVariable Long id, @RequestBody Employee emp) { /* ... */ }
-    @DeleteMapping("/{id}") public void delete(@PathVariable Long id) { /* ... */ }
+//    @PostMapping
+//    public Employee create(@RequestBody Employee emp) { /* ... */ }
+//    @PutMapping("/{id}") public Employee update(@PathVariable Long id, @RequestBody Employee emp) { /* ... */ }
+//    @DeleteMapping("/{id}") public void delete(@PathVariable Long id) { /* ... */ }
 }
 
